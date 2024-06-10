@@ -28,10 +28,8 @@ public class WebSecurityConfiguration {
                 .csrf(csrf -> csrf.disable())
                 .authorizeHttpRequests(authorize ->
                         authorize
-                                .requestMatchers("/authenticate", "/sign-up",
-                                        "/content-index",
-                                        "/content/**",
-                                        "/admin/**"
+                                .requestMatchers("/authenticate", "/sign-up"
+
 
                                 ).permitAll()
                                 .requestMatchers("/api/**").authenticated()

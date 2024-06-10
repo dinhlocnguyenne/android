@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="717d1b92-a310-45c7-978e-3a1ae71f37bd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/android_FE/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android_FE/.idea/deploymentTargetSelector.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android_FE/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android_FE/app/src/main/java/com/example/android/ApiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android_FE/app/src/main/java/com/example/android/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android_FE/app/src/main/java/com/example/android/LoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android_FE/app/src/main/java/com/example/android/RegisterActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android_FE/app/src/main/java/com/example/android/RetrofitClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android_FE/app/src/main/java/com/example/android/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android_FE/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android_FE/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_BE/src/main/java/com/example/android/config/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/android_BE/src/main/java/com/example/android/config/WebSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_FE/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android_FE/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_FE/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android_FE/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android_FE/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/android_FE/app/build.gradle.kts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2hYVpS3mkMYE8PbOJrwKbme88wu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.AndroidApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/android/android_BE",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\android\src\main\java\com\example\android\services" />
+      <recent name="C:\Users\admin\Downloads\ecommerce-springboot-angular-basic-main\ecommerce-springboot-angular-basic-main\Android\src\main\java\com\example\android" />
+      <recent name="C:\Users\admin\Downloads\ecommerce-springboot-angular-basic-main\ecommerce-springboot-angular-basic-main\Android\src\main\java\com\example\android\services" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.android.dto" />
+      <recent name="com.example.android.controller" />
+      <recent name="com.example.android.services.account" />
+      <recent name="com.example.android.entity" />
+      <recent name="com.example.android.repository" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="AndroidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="Android" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.android.AndroidApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="717d1b92-a310-45c7-978e-3a1ae71f37bd" name="Changes" comment="" />
+      <created>1717771181350</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717771181350</updated>
+      <workItem from="1717771182465" duration="1113000" />
+      <workItem from="1717854254870" duration="1721000" />
+      <workItem from="1717939788196" duration="1272000" />
+      <workItem from="1717942623998" duration="3266000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

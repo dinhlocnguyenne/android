@@ -1,15 +1,20 @@
 package com.example.android.entity;
 
+import com.example.android.dto.PostDto;
 import com.example.android.dto.UserDto;
 import com.example.android.emuns.UserRole;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.util.Date;
 
 @Entity
 @Data
 @Table(name = "users")
 public class User {
+
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

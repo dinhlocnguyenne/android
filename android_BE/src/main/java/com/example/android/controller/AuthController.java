@@ -42,7 +42,9 @@ public class AuthController {
         try {
             authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(authenticationReqestDto.getUsername(), authenticationReqestDto.getPassword()));
         } catch (BadCredentialsException e) {
-            throw new BadCredentialsException("Incorrect username or password");
+            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+            response.getWriter().write("{\"message\": \"Incorrect username or password\"}");
+            return;
         }
         final UserDetails userDetails = userDetailsService.loadUserByUsername((authenticationReqestDto.getUsername()));
         Optional<User> optionalUser = userRepository.findFirstByEmail(userDetails.getUsername());
@@ -53,14 +55,15 @@ public class AuthController {
             jsonResponse.addProperty("username", optionalUser.get().getName());
             jsonResponse.addProperty("role", optionalUser.get().getRole().toString());
             response.getWriter().write(jsonResponse.toString());
-            //add header
             response.addHeader("Access-Control-Expose-Headers", "Authorization");
             response.addHeader("Access-Control-Allow-Headers", "Authorization, X-PINGOTHER, Origin, " +
                     "X-Requested-With, Content-Type, Accept, X-Custom-header");
             response.addHeader(HEADER_STRING, TOKEN_PREFIX + jwt);
+        } else {
+            response.setStatus(HttpServletResponse.SC_UNAUTHORIZED);
+            response.getWriter().write("{\"message\": \"User not found\"}");
         }
     }
-
     @PostMapping("/sign-up")
     public ResponseEntity<?> signupUser(@RequestBody SignupRequestDtoDto signupRequestDto) {
         if (authService.hasUserWithEmail(signupRequestDto.getEmail())) {
